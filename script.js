@@ -26,9 +26,8 @@ function calculateBMI() {
 
 	document.getElementById('result').innerHTML = `
 		<h2 style="text-align: center">Hasil</h2>
-		<h4>Berat badan lebih</h4>
-		<p>${bmi.toFixed(2)}</p>
-		<p>Anda ${status}</p>
+		<h3>${bmi.toFixed(2)}</h3>
+		<h3>Anda ${status}</h3>
 		<br>	
 		<hp>Beberapa penyakit yang berasal dari kegemukan:<p>
 		<ul>
@@ -36,7 +35,10 @@ function calculateBMI() {
 			<li>Hipertensi</li>
 			<li>Sakit Jantung</li>
 			<li>Osteoarthritis</li>
-		</ul>
+		</ul><br>
+		<p>BMI tidak sepenuhnya mewakili diagnosis menyeluruh dari kesehatann
+			tubuh dan resiko penyakit seseorang. Anda perlu konsultasi lebih
+			lanjut.</p>
 		<div class="button-container">
 			<a href="https://www.instagram.com/dela.agustiani/" target="_blank">Konsultasi Dokter Via Aplikasi</a>
 			<a href="https://www.instagram.com/dela.agustiani/" target="_blank" id="register">Registrasi Online Sekarang</a>
